@@ -1,0 +1,136 @@
+/* Navigation Bar */
+body{
+    font-family: sans-serif;
+
+}
+.nav {
+    background-color: white;
+    box-shadow: 1px 3px 1px 1px rgba(27, 27, 27, 0.2);
+    height: 60px;
+  }
+  
+  .nav a {
+    position: relative;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #00AB84;
+    transition: 0.3s;
+    padding: 10px;
+  }
+  nav a:hover{
+    color: darkgray;
+  }
+  .nav a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background-color: darkgray;
+    bottom: -7px;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  
+  .nav a:hover:before {
+    width: 100%;
+  }
+  
+  #logo {
+    position: relative;
+    left: 95%;
+  }
+  
+  /* Account Creation Form */
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: center;
+  }
+  
+  .container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #45a049;
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+  }
+  h6{
+    text-align: center;
+  }
+.footer{
+    height: 310px;
+    background-color:rgb(216, 216, 216) ;
+    border-radius: 5px;
+}
+.footer img{
+    width: 100px;
+    left:auto;
+    
+    
+}
+#h2f1{
+    text-align: center;
+}
+.footer ul{
+    text-align: center;
+}
+.footer li{
+    text-align:center ;
+    list-style: none;
+}
+.footer h6{
+    text-align: center;
+ }
+ .name0{
+    display: flex;
+    gap: 78px;
+    justify-content: center;
+    align-items:center;
+ }
+ .num{
+    /* flex-direction: column; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+ }
